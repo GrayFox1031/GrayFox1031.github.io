@@ -9,7 +9,6 @@
 
   body{
     height: 100vh;
-    /* display: flex; */
     align-items: center;
     justify-content: center;
   }
@@ -127,6 +126,7 @@
     margin-bottom: 30px;
     /* margin-top: auto;
     margin-bottom: auto; */
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
   }
   
   .card-header{
@@ -258,24 +258,22 @@ footer a {
     font-size: 25px;
     text-transform: uppercase;
     border: 1px solid transparent;
-    padding: 7px 10px;
+    padding: 0px 10px;
     border-radius: 3px;
     margin: 10px 10px 10px 10px;
 }
 
 footer ul {
     display: flex;
-    text-align: center;
-    /* margin: auto; */
-    /* width: 700px; */
-    height: 30px;
-    /* background-color: #e66767; */
+    width: 400px;
+    height: 100px;
+    margin:0 auto;
 }
 
 footer ul li a{
     margin: 0 8px;
     line-height: 80px;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .outer-footer {
