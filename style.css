@@ -19,12 +19,26 @@
     background: #34495e;
   }
 
-  label.logo {
+  /* label.logo {
     font-size: 35px;
     font-weight: bold;
     color: white;
     padding: 0 100px;
     line-height: 80px;
+  } */
+
+   .logo{
+    font-size: 35px;
+    font-weight: bold;
+    color:#fff;
+    padding: 0 100px;
+    line-height: 80px;
+    text-transform: uppercase;
+  }
+
+   .logo span {
+      /* color:var(--orange); */
+      color: #ffa500;
   }
 
   nav ul {
@@ -175,13 +189,17 @@
   
   .desc{
     font-size: 18px;
-    color: #cd5c5c;
+    /* color: #e66767; */
+    /* color: #ffd700; */
+    color: #ffa500;
     margin: 10px 0;
   }
 
   .subdesc{
     font-size: 15px;
-    color: #e66767;
+    /* color: #e66767; */
+    /* color: #ffd700; */
+    color: #ffa500;
     margin: 10px 0;
   }
   
@@ -199,21 +217,30 @@
   }
   
   .sm a:hover{
-    color: #e66767;
+    /* color: #e66767; */
+    /* color: #ffd700; */
+    color: #ffa500;
   }
   
   .contact-btn{
     display: inline-block;
     padding: 12px 50px;
-    color: #e66767;
-    border: 2px solid #e66767;
+    /* color: #e66767; */
+    /* color: #ffd700; */
+    color: #ffa500;
+    /* border: 2px solid #e66767; */
+    /* border: 2px solid #ffd700; */
+    border: 2px solid #ffa500;
     border-radius: 6px;
     margin-top: 16px;
     transition: .3s linear;
   }
   
   .contact-btn:hover{
-    background: #e66767;
+    /* background: #e66767; */
+    /* background: #ffd700; */
+    background: #ffa500;
+    border-radius: 6px;
     color: #f2f2f2;
   }
   
@@ -231,7 +258,9 @@
     flex: 1;
     text-transform: uppercase;
     font-size: 13px;
-    color: #e66767;
+    /* color: #e66767; */
+    /* color: #ffd700; */
+    color: #ffa500;
   }
   
   .item span{
