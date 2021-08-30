@@ -284,4 +284,9 @@ footer ul li a{
     background-color: #3f3f3f;
 }
   
-  
+.about-wrap {
+  width: 900px;
+  background-color: white;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+}
